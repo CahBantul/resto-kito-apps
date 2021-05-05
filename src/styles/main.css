@@ -23,37 +23,15 @@ body {
    *
    */
 
-.header__inner {
-  width: 100%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header__title {
-  font-weight: 300;
-  font-size: 4em;
-  margin: 0.5em 0.25em;
-  display: inline-block;
-  color: #212121;
-}
-
 .header__menu {
   font-size: 32px;
-  margin: 10px auto;
   display: block;
-  width: 30px;
+  margin-left: 10px;
 }
 
 /*
    * Top level navigation
    */
-
-.nav {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .nav__list {
   width: 100%;
@@ -74,17 +52,10 @@ body {
   display: inline-block;
   padding: 1.3em;
   text-decoration: none;
-  color: #616161;
+  color: white;
 }
 
 .nav a:hover {
   text-decoration: underline;
   color: #000;
 }
-
-.logo {
-  margin-left: 0;
-  text-align: left;
-  width: 50%;
-}
-
