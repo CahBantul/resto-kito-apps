@@ -18,10 +18,7 @@ body {
   color: #424242;
 }
 
-/*
-   * Header
-   *
-   */
+/** Header **/
 
 .header__menu {
   font-size: 32px;
@@ -29,23 +26,12 @@ body {
   margin-left: 10px;
 }
 
-/*
-   * Top level navigation
-   */
+/** Top level navigation   **/
 
 .nav__list {
   width: 100%;
   padding: 0;
   margin: 0;
-}
-
-.nav__item {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 10%;
-  text-align: right;
-  line-height: 24px;
-  text-transform: uppercase;
 }
 
 .nav a {
@@ -58,4 +44,126 @@ body {
 .nav a:hover {
   text-decoration: underline;
   color: #000;
+}
+
+/** Jumbotron **/
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 380px;
+  width: 100%;
+  text-align: center;
+  background-image: url("/images/heros/hero-image_2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: green;
+}
+
+.hero__inner {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.hero__title {
+  color: yellow;
+  font-weight: 1000;
+  font-size: 36px;
+}
+
+.hero__tagline {
+  color: #fff;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/** main **/
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/** content **/
+
+.content {
+  padding: 0;
+}
+
+/** latest **/
+
+.latest {
+  width: 100%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.latest__label {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.latest__label::after {
+  content: "";
+  margin-top: 16px;
+  display: block;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/** post **/
+
+.posts {
+  margin: 32px auto auto;
+  text-align: left;
+}
+
+/** post item **/
+
+.post-item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.post-item__content {
+  padding: 16px;
+}
+
+.post-item__thumbnail {
+  width: 100%;
+}
+
+.post-item__date {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.post-item__date__author {
+  color: red;
+  text-decoration: none;
+}
+
+.post-item__title {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 16px;
+  transition: 0.3s opacity;
+}
+
+.post-item__title:hover {
+  opacity: 0.5;
+}
+
+.post-item__title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-item__description {
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 1.5em;
 }

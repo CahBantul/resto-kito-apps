@@ -44,6 +44,10 @@
   .logo {
     display: none;
   }
+  .latest__label {
+    font-size: 28px;
+    font-weight: lighter;
+  }
 }
 
 @media screen and (min-width: 455px) {
