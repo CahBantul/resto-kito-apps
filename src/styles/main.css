@@ -1,6 +1,4 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -114,7 +112,7 @@ main {
 /** post **/
 
 .posts {
-  margin: 32px auto auto;
+  margin: 32px;
   text-align: left;
 }
 
@@ -136,7 +134,7 @@ main {
 }
 
 .post-item__date {
-  font-size: 10px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #999;
 }
@@ -166,4 +164,31 @@ main {
   margin-top: 16px;
   font-size: 12px;
   line-height: 1.5em;
+}
+
+/** footer **/
+
+footer {
+  background-color: red;
+  padding: 1.2em;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+footer ul {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+  font-size: 1.5em;
+}
+
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
 }
