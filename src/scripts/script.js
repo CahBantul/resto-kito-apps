@@ -11,7 +11,7 @@ data.restaurants.forEach((resto) => {
   <article class="post-item">
 <img class="post-item__thumbnail" src="${resto.pictureId}" alt="${resto.name}">
 <div class="post-item__content">
-    <p class="post-item__date"> Rating ${resto.rating} <a href="#" class="post-item__date__author">kota ${resto.city}</a>
+    <p class="post-item__date"> Rating ${resto.rating} <span class="post-item__date__author">kota ${resto.city}</span>
     </p>
     <h1 class="post-item__title"><a href="#">${resto.name}</a></h1>
     <p class="post-item__description">${resto.description}</p>

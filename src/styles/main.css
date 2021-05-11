@@ -32,7 +32,7 @@ body {
 /** Header **/
 
 .header__menu {
-  font-size: 32px;
+  font-size: 44px;
   display: block;
   margin-left: 10px;
 }
@@ -159,7 +159,7 @@ main {
 
 .post-item__title {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 44px;
   margin-top: 16px;
   transition: 0.3s opacity;
 }
@@ -177,6 +177,11 @@ main {
   margin-top: 16px;
   font-size: 12px;
   line-height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 /** footer **/
