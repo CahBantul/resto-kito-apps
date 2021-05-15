@@ -3,12 +3,13 @@
 }
 .skip-link {
   position: absolute;
-  top: -40px;
+  top: -65px;
   left: 0;
   background-color: #bf1722;
   color: white;
   padding: 8px;
   z-index: 100;
+  font-size: 14px;
 }
 
 .skip-link:focus {
@@ -159,7 +160,7 @@ main {
 
 .post-item__title {
   font-weight: 500;
-  font-size: 44px;
+  font-size: 28px;
   margin-top: 16px;
   transition: 0.3s opacity;
 }
@@ -175,7 +176,7 @@ main {
 
 .post-item__description {
   margin-top: 16px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5em;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -209,4 +210,10 @@ footer a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+}
+
+a {
+  min-width: 44px;
+  min-height: 44px;
+  line-height: 44px;
 }
