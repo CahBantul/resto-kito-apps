@@ -172,6 +172,9 @@ main {
 .post-item__title a {
   text-decoration: none;
   color: inherit;
+  min-width: 44px;
+  min-height: 44px;
+  line-height: 44px;
 }
 
 .post-item__description {
