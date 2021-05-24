@@ -170,6 +170,7 @@ main {
 }
 
 .post-item__title a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   min-width: 44px;
